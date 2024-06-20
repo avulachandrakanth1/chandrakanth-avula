@@ -36,18 +36,8 @@ const AboutMe = () => {
     },
   ];
   return (
-    <Box
-      pb={"2rem"}
-      bg={"#110c11"}
-      id="aboutme"
-    >
-      <Text
-        fontSize={"2rem"}
-        fontWeight={650}
-        textAlign={"center"}
-        color={"white"}
-        pt={"1rem"}
-      >
+    <Box pb={"2rem"} bg={"#110c11"} id="aboutme">
+      <Text fontSize={"2rem"} fontWeight={650} textAlign={"center"} color={"white"} pt={"1rem"}>
         Get to Know About Me
       </Text>
 

@@ -12,7 +12,7 @@ const Form = () => {
                 <input className='inputs' type="email" name='email' placeholder='Your Email'/>
             <br />
                 <label color='white'>Your Mobile No</label>
-                <input className='inputs' type="email" name='number' placeholder='Your Contact No'/>
+                <input className='inputs' type='tel' name='number' placeholder='Your Contact No'/>
             <br />
                 <label color='white'>Enter your Message</label>
                 <textarea className='inputst' name="subject" placeholder="Write something.." height={'500px'}></textarea>
