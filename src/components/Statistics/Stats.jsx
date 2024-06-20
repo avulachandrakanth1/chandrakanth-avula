@@ -39,8 +39,8 @@ const Stats = () => {
       Github Stats
       <Grid templateColumns={['repeat(1,1fr)','repeat(2,1fr)','repeat(2,1fr)']} gap={'1rem'} 
       color={'orange'}>
-      <img margin={'auto'} src="https://github-readme-streak-stats.herokuapp.com/?user=avulachandrakanth1&" alt="" />
-      <img src="https://github-readme-stats.vercel.app/api?username=avulachandrakanth1&show_icons=true&locale=en" alt="" />
+      <img margin={'auto'} style={{ width: '100%', height: '100%', objectFit: 'cover','border-radius': '10px' }} src="https://github-readme-streak-stats.herokuapp.com/?user=avulachandrakanth1&" alt="" />
+      <img style={{ width: '100%', height: '100%', objectFit: 'cover','border-radius': '10px' }} src="https://github-readme-stats.vercel.app/api?username=avulachandrakanth1&show_icons=true&locale=en" alt="" />
       </Grid>
     </Grid>
   );
